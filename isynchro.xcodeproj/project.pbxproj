@@ -38,21 +38,21 @@
 		B7247A1815454F6700DD5F0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B7247A1A15454F6700DD5F0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B7247A1C15454F6700DD5F0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B7247A2015454F6700DD5F0B /* isynchro-Info.plist */ = {isa = PBXFileReference; path = "isynchro-Info.plist"; sourceTree = "<group>"; };
+		B7247A2015454F6700DD5F0B /* isynchro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "isynchro-Info.plist"; sourceTree = "<group>"; };
 		B7247A2215454F6700DD5F0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7247A2415454F6700DD5F0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B7247A2615454F6700DD5F0B /* isynchro-Prefix.pch */ = {isa = PBXFileReference; path = "isynchro-Prefix.pch"; sourceTree = "<group>"; };
-		B7247A2715454F6700DD5F0B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7247A2615454F6700DD5F0B /* isynchro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "isynchro-Prefix.pch"; sourceTree = "<group>"; };
+		B7247A2715454F6700DD5F0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B7247A2815454F6700DD5F0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B7247A2A15454F6700DD5F0B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		B7247A2A15454F6700DD5F0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B7247A2B15454F6700DD5F0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B7247A2E15454F6700DD5F0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		B7247A3115454F6700DD5F0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		B7247A3815454F6700DD5F0B /* isynchroTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = isynchroTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7247A3915454F6700DD5F0B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B7247A4115454F6700DD5F0B /* isynchroTests-Info.plist */ = {isa = PBXFileReference; path = "isynchroTests-Info.plist"; sourceTree = "<group>"; };
+		B7247A4115454F6700DD5F0B /* isynchroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "isynchroTests-Info.plist"; sourceTree = "<group>"; };
 		B7247A4315454F6700DD5F0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B7247A4515454F6700DD5F0B /* isynchroTests.h */ = {isa = PBXFileReference; path = isynchroTests.h; sourceTree = "<group>"; };
+		B7247A4515454F6700DD5F0B /* isynchroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = isynchroTests.h; sourceTree = "<group>"; };
 		B7247A4615454F6700DD5F0B /* isynchroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = isynchroTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
