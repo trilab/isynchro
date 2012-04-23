@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7247A1915454F6700DD5F0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7247A1815454F6700DD5F0B /* UIKit.framework */; };
+		B7247A1B15454F6700DD5F0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7247A1A15454F6700DD5F0B /* Foundation.framework */; };
+		B7247A1D15454F6700DD5F0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7247A1C15454F6700DD5F0B /* CoreGraphics.framework */; };
+		B7247A2315454F6700DD5F0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7247A2115454F6700DD5F0B /* InfoPlist.strings */; };
+		B7247A2515454F6700DD5F0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7247A2415454F6700DD5F0B /* main.m */; };
+		B7247A2915454F6700DD5F0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7247A2815454F6700DD5F0B /* AppDelegate.m */; };
+		B7247A2C15454F6700DD5F0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7247A2B15454F6700DD5F0B /* ViewController.m */; };
+		B7247A2F15454F6700DD5F0B /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7247A2D15454F6700DD5F0B /* ViewController_iPhone.xib */; };
+		B7247A3215454F6700DD5F0B /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7247A3015454F6700DD5F0B /* ViewController_iPad.xib */; };
+		B7247A3A15454F6700DD5F0B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7247A3915454F6700DD5F0B /* SenTestingKit.framework */; };
+		B7247A3B15454F6700DD5F0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7247A1815454F6700DD5F0B /* UIKit.framework */; };
+		B7247A3C15454F6700DD5F0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7247A1A15454F6700DD5F0B /* Foundation.framework */; };
+		B7247A4415454F6700DD5F0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7247A4215454F6700DD5F0B /* InfoPlist.strings */; };
+		B7247A4715454F6700DD5F0B /* isynchroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7247A4615454F6700DD5F0B /* isynchroTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7247A3D15454F6700DD5F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7247A0B15454F6600DD5F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7247A1315454F6700DD5F0B;
+			remoteInfo = isynchro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7247A1415454F6700DD5F0B /* isynchro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = isynchro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7247A1815454F6700DD5F0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7247A1A15454F6700DD5F0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7247A1C15454F6700DD5F0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B7247A2015454F6700DD5F0B /* isynchro-Info.plist */ = {isa = PBXFileReference; path = "isynchro-Info.plist"; sourceTree = "<group>"; };
+		B7247A2215454F6700DD5F0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7247A2415454F6700DD5F0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7247A2615454F6700DD5F0B /* isynchro-Prefix.pch */ = {isa = PBXFileReference; path = "isynchro-Prefix.pch"; sourceTree = "<group>"; };
+		B7247A2715454F6700DD5F0B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7247A2815454F6700DD5F0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7247A2A15454F6700DD5F0B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		B7247A2B15454F6700DD5F0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7247A2E15454F6700DD5F0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		B7247A3115454F6700DD5F0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		B7247A3815454F6700DD5F0B /* isynchroTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = isynchroTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7247A3915454F6700DD5F0B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7247A4115454F6700DD5F0B /* isynchroTests-Info.plist */ = {isa = PBXFileReference; path = "isynchroTests-Info.plist"; sourceTree = "<group>"; };
+		B7247A4315454F6700DD5F0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7247A4515454F6700DD5F0B /* isynchroTests.h */ = {isa = PBXFileReference; path = isynchroTests.h; sourceTree = "<group>"; };
+		B7247A4615454F6700DD5F0B /* isynchroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = isynchroTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7247A1115454F6700DD5F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7247A1915454F6700DD5F0B /* UIKit.framework in Frameworks */,
+				B7247A1B15454F6700DD5F0B /* Foundation.framework in Frameworks */,
+				B7247A1D15454F6700DD5F0B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7247A3415454F6700DD5F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7247A3A15454F6700DD5F0B /* SenTestingKit.framework in Frameworks */,
+				B7247A3B15454F6700DD5F0B /* UIKit.framework in Frameworks */,
+				B7247A3C15454F6700DD5F0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7247A0915454F6600DD5F0B = {
+			isa = PBXGroup;
+			children = (
+				B7247A1E15454F6700DD5F0B /* isynchro */,
+				B7247A3F15454F6700DD5F0B /* isynchroTests */,
+				B7247A1715454F6700DD5F0B /* Frameworks */,
+				B7247A1515454F6700DD5F0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7247A1515454F6700DD5F0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7247A1415454F6700DD5F0B /* isynchro.app */,
+				B7247A3815454F6700DD5F0B /* isynchroTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7247A1715454F6700DD5F0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7247A1815454F6700DD5F0B /* UIKit.framework */,
+				B7247A1A15454F6700DD5F0B /* Foundation.framework */,
+				B7247A1C15454F6700DD5F0B /* CoreGraphics.framework */,
+				B7247A3915454F6700DD5F0B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7247A1E15454F6700DD5F0B /* isynchro */ = {
+			isa = PBXGroup;
+			children = (
+				B7247A2715454F6700DD5F0B /* AppDelegate.h */,
+				B7247A2815454F6700DD5F0B /* AppDelegate.m */,
+				B7247A2A15454F6700DD5F0B /* ViewController.h */,
+				B7247A2B15454F6700DD5F0B /* ViewController.m */,
+				B7247A2D15454F6700DD5F0B /* ViewController_iPhone.xib */,
+				B7247A3015454F6700DD5F0B /* ViewController_iPad.xib */,
+				B7247A1F15454F6700DD5F0B /* Supporting Files */,
+			);
+			path = isynchro;
+			sourceTree = "<group>";
+		};
+		B7247A1F15454F6700DD5F0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7247A2015454F6700DD5F0B /* isynchro-Info.plist */,
+				B7247A2115454F6700DD5F0B /* InfoPlist.strings */,
+				B7247A2415454F6700DD5F0B /* main.m */,
+				B7247A2615454F6700DD5F0B /* isynchro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7247A3F15454F6700DD5F0B /* isynchroTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7247A4515454F6700DD5F0B /* isynchroTests.h */,
+				B7247A4615454F6700DD5F0B /* isynchroTests.m */,
+				B7247A4015454F6700DD5F0B /* Supporting Files */,
+			);
+			path = isynchroTests;
+			sourceTree = "<group>";
+		};
+		B7247A4015454F6700DD5F0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7247A4115454F6700DD5F0B /* isynchroTests-Info.plist */,
+				B7247A4215454F6700DD5F0B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7247A1315454F6700DD5F0B /* isynchro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7247A4A15454F6700DD5F0B /* Build configuration list for PBXNativeTarget "isynchro" */;
+			buildPhases = (
+				B7247A1015454F6700DD5F0B /* Sources */,
+				B7247A1115454F6700DD5F0B /* Frameworks */,
+				B7247A1215454F6700DD5F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = isynchro;
+			productName = isynchro;
+			productReference = B7247A1415454F6700DD5F0B /* isynchro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7247A3715454F6700DD5F0B /* isynchroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7247A4D15454F6700DD5F0B /* Build configuration list for PBXNativeTarget "isynchroTests" */;
+			buildPhases = (
+				B7247A3315454F6700DD5F0B /* Sources */,
+				B7247A3415454F6700DD5F0B /* Frameworks */,
+				B7247A3515454F6700DD5F0B /* Resources */,
+				B7247A3615454F6700DD5F0B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7247A3E15454F6700DD5F0B /* PBXTargetDependency */,
+			);
+			name = isynchroTests;
+			productName = isynchroTests;
+			productReference = B7247A3815454F6700DD5F0B /* isynchroTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7247A0B15454F6600DD5F0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Cimt Ag";
+			};
+			buildConfigurationList = B7247A0E15454F6600DD5F0B /* Build configuration list for PBXProject "isynchro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7247A0915454F6600DD5F0B;
+			productRefGroup = B7247A1515454F6700DD5F0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7247A1315454F6700DD5F0B /* isynchro */,
+				B7247A3715454F6700DD5F0B /* isynchroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7247A1215454F6700DD5F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7247A2315454F6700DD5F0B /* InfoPlist.strings in Resources */,
+				B7247A2F15454F6700DD5F0B /* ViewController_iPhone.xib in Resources */,
+				B7247A3215454F6700DD5F0B /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7247A3515454F6700DD5F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7247A4415454F6700DD5F0B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B7247A3615454F6700DD5F0B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7247A1015454F6700DD5F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7247A2515454F6700DD5F0B /* main.m in Sources */,
+				B7247A2915454F6700DD5F0B /* AppDelegate.m in Sources */,
+				B7247A2C15454F6700DD5F0B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7247A3315454F6700DD5F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7247A4715454F6700DD5F0B /* isynchroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7247A3E15454F6700DD5F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7247A1315454F6700DD5F0B /* isynchro */;
+			targetProxy = B7247A3D15454F6700DD5F0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7247A2115454F6700DD5F0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7247A2215454F6700DD5F0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B7247A2D15454F6700DD5F0B /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7247A2E15454F6700DD5F0B /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B7247A3015454F6700DD5F0B /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7247A3115454F6700DD5F0B /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		B7247A4215454F6700DD5F0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7247A4315454F6700DD5F0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7247A4815454F6700DD5F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7247A4915454F6700DD5F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7247A4B15454F6700DD5F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "isynchro/isynchro-Prefix.pch";
+				INFOPLIST_FILE = "isynchro/isynchro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7247A4C15454F6700DD5F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "isynchro/isynchro-Prefix.pch";
+				INFOPLIST_FILE = "isynchro/isynchro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B7247A4E15454F6700DD5F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/isynchro.app/isynchro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "isynchro/isynchro-Prefix.pch";
+				INFOPLIST_FILE = "isynchroTests/isynchroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B7247A4F15454F6700DD5F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/isynchro.app/isynchro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "isynchro/isynchro-Prefix.pch";
+				INFOPLIST_FILE = "isynchroTests/isynchroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7247A0E15454F6600DD5F0B /* Build configuration list for PBXProject "isynchro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7247A4815454F6700DD5F0B /* Debug */,
+				B7247A4915454F6700DD5F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7247A4A15454F6700DD5F0B /* Build configuration list for PBXNativeTarget "isynchro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7247A4B15454F6700DD5F0B /* Debug */,
+				B7247A4C15454F6700DD5F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7247A4D15454F6700DD5F0B /* Build configuration list for PBXNativeTarget "isynchroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7247A4E15454F6700DD5F0B /* Debug */,
+				B7247A4F15454F6700DD5F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7247A0B15454F6600DD5F0B /* Project object */;
+}
